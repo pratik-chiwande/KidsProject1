@@ -1,0 +1,40 @@
+#Topheader {
+    height: 50px;
+    width: 100%;
+    display: inline-block;
+    line-height: 50px;
+    padding: 0px 4px;
+    background-color: purple;
+    font-style: italic;
+}
+
+#Topheader .icon {
+    margin: 0px 5px;
+}
+
+#Topheader .socialicon a {
+    color: white;
+    margin: 0px;
+}
+
+@media (max-width:1123px) {
+    #Topheader {
+        height: 50px;
+        padding-right: 2px;
+    }
+
+    #Topheader .socialicon {
+        padding: 2px;
+        margin: 10px;
+
+    }
+}
+
+@media screen and (max-width:992px) {
+    #Topheader {
+        /* display: none; */
+        padding-right: 20px;
+
+
+    }
+}

@@ -1,0 +1,246 @@
+[
+  {
+    "lable": "Home",
+    "link": "/",
+    "isDropdown": true,
+    "textColor": "text-red",
+    "dropdownmenu": [
+      {
+        "lable": "Home1",
+        "link": "/home1",
+        "textColor": "text-red"
+      }
+    ]
+  },
+  {
+    "lable": "About",
+    "link": "/about",
+    "isDropdown": true,
+    "textColor": "text-yellow",
+    "dropdownmenu": [
+      {
+        "lable": "About1",
+        "link": "/about",
+        "textColor": "text-yellow"
+      },
+      {
+        "lable": "About2",
+        "link": "/about",
+        "textColor": "text-yellow"
+      },
+      {
+        "lable": "About3",
+        "link": "/about",
+        "textColor": "text-yellow"
+      },
+      {
+        "lable": "About4",
+        "link": "/about",
+        "textColor": "text-yellow"
+      },
+      {
+        "lable": "About5",
+        "link": "/about",
+        "textColor": "text-yellow"
+      }
+    ]
+  },
+  {
+    "lable": "Classes",
+    "link": "/classes",
+    "isDropdown": true,
+    "textColor": "text-orange",
+    "dropdownmenu": [
+      {
+        "lable": "Classes1",
+        "link": "/classes1",
+        "textColor": "text-orange"
+      },
+      {
+        "lable": "Classes2",
+        "link": "/classes2",
+        "textColor": "text-orange"
+      },
+      {
+        "lable": "Classes3",
+        "link": "/classes3",
+        "textColor": "text-orange"
+      },
+      {
+        "lable": "Classes4",
+        "link": "/classes4",
+        "textColor": "text-orange"
+      },
+      {
+        "lable": "Classes5",
+        "link": "/classes5",
+        "textColor": "text-orange"
+      }
+    ]
+  },
+  {
+    "lable": "Teachers",
+    "link": "/teacher",
+    "isDropdown": true,
+    "textColor": "text-violet",
+    "dropdownmenu": [
+      {
+        "lable": "Teachers1",
+        "link": "/teacher1",
+        "textColor": "text-yellow"
+      },
+      {
+        "lable": "Teachers2",
+        "link": "/teacher2",
+        "textColor": "text-yellow"
+      },
+      {
+        "lable": "Teachers3",
+        "link": "/teacher3",
+        "textColor": "text-yellow"
+      },
+      {
+        "lable": "Teachers4",
+        "link": "/teacher4",
+        "textColor": "text-yellow"
+      },
+      {
+        "lable": "Teachers5",
+        "link": "/teacher5",
+        "textColor": "text-yellow"
+      }
+    ]
+  },
+  {
+    "lable": "Pages",
+    "link": "/pages",
+    "isDropdown": true,
+    "textColor": "text-lightblue",
+    "dropdownmenu": [
+      {
+        "lable": "Pages1",
+        "link": "/pages1",
+        "textColor": "text-yellow"
+      },
+      {
+        "lable": "Pages2",
+        "link": "/pages",
+        "textColor": "text-yellow"
+      },
+      {
+        "lable": "Pages3",
+        "link": "/pages3",
+        "textColor": "text-yellow"
+      },
+      {
+        "lable": "Pages4",
+        "link": "/pages4",
+        "textColor": "text-yellow"
+      },
+      {
+        "lable": "Pages5",
+        "link": "/pages5",
+        "textColor": "text-yellow"
+      }
+    ]
+  },
+  {
+    "lable": "Blog",
+    "link": "/blog",
+    "isDropdown": true,
+    "textColor": "text-pink",
+    "dropdownmenu": [
+      {
+        "lable": "Blog1",
+        "link": "/blog1",
+        "textColor": "text-yellow"
+      },
+      {
+        "lable": "Blog2",
+        "link": "/blog2",
+        "textColor": "text-yellow"
+      },
+      {
+        "lable": "Blog3",
+        "link": "/blog3",
+        "textColor": "text-yellow"
+      },
+      {
+        "lable": "Blog4",
+        "link": "/blog4",
+        "textColor": "text-yellow"
+      },
+      {
+        "lable": "Blog5",
+        "link": "/blog5",
+        "textColor": "text-yellow"
+      }
+    ]
+  },
+  {
+    "lable": "Shop",
+    "link": "/shop",
+    "isDropdown": true,
+    "textColor": "text-green",
+    "dropdownmenu": [
+      {
+        "lable": "Shop1",
+        "link": "/shop1",
+        "textColor": "text-green"
+      },
+      {
+        "lable": "Shop2",
+        "link": "/shop2",
+        "textColor": "text-yellow"
+      },
+      {
+        "lable": "Shop3",
+        "link": "/shop3",
+        "textColor": "text-yellow"
+      },
+      {
+        "lable": "Shop4",
+        "link": "/shop4",
+        "textColor": "text-yellow"
+      },
+      {
+        "lable": "Shop5",
+        "link": "/shop5",
+        "textColor": "text-yellow"
+      }
+    ]
+  },
+  {
+    "lable": "Contact",
+    "link": "/contact",
+    "isDropdown": true,
+    "textColor": "text-brown",
+    "dropdownmenu": [
+      {
+        "lable": "Contact1",
+        "link": "/contact1",
+        "textColor": "text-yellow"
+      },
+      {
+        "lable": "Contact2",
+        "link": "/contact2",
+        "textColor": "text-yellow"
+      },
+      {
+        "lable": "Contact3",
+        "link": "/contact3",
+        "textColor": "text-yellow"
+      },
+      {
+        "lable": "Contact4",
+        "link": "/contact4",
+        "textColor": "text-yellow"
+      },
+      {
+        "lable": "Contact5",
+        "link": "/contact5",
+        "textColor": "text-yellow"
+      }
+    ]
+  }
+]

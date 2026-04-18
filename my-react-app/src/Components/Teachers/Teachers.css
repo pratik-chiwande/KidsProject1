@@ -1,0 +1,98 @@
+/* #Teachers {
+    background: url('../../assets/Img/about-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    /* z-index: -1;
+     */
+*/
+
+/* #Teachers .teacher-header h1{
+    padding-top: 20px;
+    width: 100%;
+    text-align: center !important;
+    margin-top: 55px;
+}*/
+#Teachers .teacher-header p {
+    color: white;
+}
+
+#Teachers .teacher-header {
+    color: white;
+}
+
+/* #Teachers .overlay {
+    background-color: rgba(71, 171, 35, .8);
+    /* background-image: linear-gradient(to right, red 10%, blue 70%, green); */
+    /* color: white; */
+ */
+
+#Teachers .teachers-content ul {
+    margin: 0px;
+    padding: 0px;
+    justify-content: center;
+}
+
+#Teachers .teachers-content a {
+    color: white;
+    display: block;
+    text-decoration: none;
+    font-weight: 700px;
+    transition: all 0.6s;
+}
+
+#Teachers .teachers-content ul li a:hover {
+transform: translateY(-6px);
+}
+#Teachers .teachers-content a:hover {
+    transform: translateY(-6px);
+}
+
+#Teachers .teachers-content ul li {
+    display: inline-block;
+    list-style-type: none;
+
+    margin-right: 15px;
+}
+
+#Teachers .teachers-content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+}
+
+#Teachers .teachers-content .port {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+#Teachers .teachers-img img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+#Teachers .teachers-btn {
+margin-bottom: 10px;
+}
+#Teachers .teachers-content p {
+    word-break: normal;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+@media (max-width: 1200px) {
+    #Teachers .teachers-content .port {
+        display: inline-block;
+        margin-top: -20px;
+    }
+}
+
+@media (max-width: 768px) {
+    #Teachers .teachers-content {
+        text-align: center;
+    }
+}
+

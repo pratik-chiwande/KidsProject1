@@ -1,0 +1,510 @@
+/* ----------------------Homebanner------------------------------ */
+#Homebanner {
+    position: relative;
+}
+
+#Homebanner .carousel img {
+    filter: brightness(70%);
+    height: 700px;
+    width: 100%;
+    transform: scaleX(1.4)
+}
+
+#Homebanner .carousel .carousel-caption {
+    top: 25%;
+    left: 15%;
+    color: white;
+}
+
+#Homebanner .carousel .carousel-caption div .link-1 {
+    padding: 10px;
+    color: white;
+    margin-right: 10px;
+    box-shadow: 0px 0px 5px 2px red;
+}
+
+#Homebanner .carousel .carousel-caption div .link-2 {
+    color: white;
+    padding: 10px;
+    box-shadow: 0px 0px 5px 2px yellow;
+}
+
+.section-notch::before,
+#Banner .section-notch::before {
+    content: '';
+    position: absolute;
+    display: block;
+    top: 0;
+    background: url('../../assets/Img/section_top.png') no-repeat scroll;
+    background-repeat: repeat-x;
+    height: 9px;
+    width: 100%;
+    z-index: 99;
+}
+
+.section-notch::after,
+#Banner .section-notch::after {
+    content: '';
+    position: absolute;
+    display: block;
+    bottom: -3px;
+    /* 248px*/
+    background: url('../../assets/Img/section_bottom.png');
+    background-repeat: repeat-x;
+    height: 10px;
+    width: 100%;
+    z-index: 99;
+
+}
+
+#Homebanner .carousel-indicators [data-bs-target] {
+    height: 10px;
+    width: 10px;
+    background-color: white;
+    border-radius: 50%;
+    opacity: 1;
+}
+
+#Homebanner .carousel-control-next-icon,
+#Homebanner .carousel-control-prev-icon {
+    width: 0;
+}
+
+#Homebanner .carousel-indicators .active {
+    background-color: #FCB614;
+}
+
+#Homebanner .carousel a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 10px;
+    transition: 0.25s ease-out;
+}
+
+@media (max-width:576px) {
+    #Homebanner .carousel img {
+        transform: scale(1.2);
+    }
+}
+
+@media (max-width:991px) {
+    #Homebanner .carousel img {
+        transform: scale(1.4);
+    }
+}
+
+/* ----------------------Homebanner------------------------------ */
+
+/* ------------------facility------------------------------------------ */
+#Facility {
+    position: relative;
+    text-align: center;
+    color: white;
+    margin-bottom: 100px;
+}
+
+#Facility .facility-item .icon {
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    font-size: 40px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    margin-top: 100px;
+    line-height: 100px;
+    transition: all 1s ease-in-out;
+}
+
+#Facility .facility-item:hover .icon {
+    transform: rotate(360deg);
+}
+
+/* ------------------facility------------------------------------------ */
+/* ---------------------Homeabout---------------------------------------- */
+.Homeabout {
+    background: url('../../assets/Img/about-bg.jpg') no-repeat scroll;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    /* background-color: blue; */
+}
+
+.Homeabout .overlay {
+    background-color: rgba(7, 143, 203, .8);
+    /* height: 575px; */
+    color: white;
+}
+
+.Homeabout .overlay p {
+    line-height: 30px;
+    color: white;
+    /* background-size: cover; */
+    margin-bottom: 1.7rem;
+}
+
+/* ---------------------Homeabout---------------------------------------- */
+
+/* -------------------------------Homepopular-------------------------------- */
+/* #homepopular{
+    margin: 90px ;
+} */
+#homepopular .class-item .class-ul li span {
+    display: block;
+    line-height: 20px;
+}
+
+#homepopular .popular-header {
+    width: 650px;
+    text-align: center;
+    margin: 0px auto;
+    overflow: hidden;
+}
+
+/* .container {
+    overflow: hidden;
+} */
+
+#homepopular .popular-header p {
+    line-height: 30px;
+    /* width: 100%; */
+
+    text-align: center;
+}
+
+#homepopular .class-item .class-ul li {
+    color: white;
+    width: 33.33%;
+    position: relative;
+    /* display: inline-block; */
+    border: 1px solid white;
+    float: left;
+    text-align: center;
+    padding: 10px;
+
+}
+
+#homepopular .class-item:hover {
+    box-shadow: 0px 0px 20px 1px gainsboro;
+}
+
+#homepopular .class-item:hover .class-content {
+    background-color: #fff;
+}
+
+#homepopular .class-item {
+    margin-bottom: 30px;
+    transition: all 0.5s;
+    display: block;
+    /* transform: scale(1.4); */
+    max-width: 100%;
+}
+
+/* #homepopular .insta{
+    margin-left: 0px;
+} */
+#homepopular .class-item .class-address {
+    overflow: hidden;
+    padding: 8px 20px;
+}
+
+#homepopular .class-item img {
+    flex-basis: auto;
+
+    object-fit: cover;
+}
+
+#homepopular .class-item .class-content h4 a {
+    text-decoration: none;
+}
+
+#homepopular .row .class-btn a {
+    color: white;
+    text-align: center;
+    display: block;
+    width: 250px;
+    padding: 10px 20px;
+    /* margin-top: 10px !important; */
+    margin: 20px auto !important;
+}
+
+.Homepopular .class-item .class-content {
+    padding: 20px 20px 20px 20px;
+    background-color: #fafafa;
+    transition: all 0.5s;
+}
+
+@media only screen and (max-width: 767px) {
+    #homepopular {
+        transform: scale(1);
+    }
+
+    #homepopular .class-item {
+        transform: scale(1);
+    }
+
+    #Homepopular .class-item img {
+        flex-wrap: wrap;
+        display: block;
+        line-height: 3.2;
+        width: 90%;
+    }
+
+    #homepopular .popular-header,
+    #homepopular .popular-header h2 {
+        flex-wrap: wrap;
+        line-height: 3.2;
+        width: 90%;
+        text-align: center;
+        transform: scale(1.1);
+        display: block;
+    }
+
+    #Homepopular .class-item .class-ul li {
+        /* width: 33.33%; */
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 567px) {
+    #homepopular {
+        transform: scale(1.1);
+    }
+
+    #homepopular .class-item .class-address p {
+        margin: 10px !important;
+    }
+
+    #homepopular .class-item {
+        transform: scale(1.1);
+    }
+
+    #homepopular .class-item img {
+        transform: scale(1);
+        margin-top: 20px;
+    }
+
+    #homepopular .popular-header h2 {
+        font-size: 3rem !important;
+    }
+
+    #homepopular .popular-header p,
+    #homepopular .popular-header h2 {
+        transform: scale(1.1);
+        width: 90%;
+        font-size: 12px;
+        text-align: center;
+        margin: 20px auto;
+        overflow: hidden;
+    }
+
+    #homepopular .container .row .class-btn a {
+        /* margin: 100px !important; */
+        padding: 10px 20px;
+        width: 170px;
+        text-align: center;
+        /* display: flex; */
+        margin-top: 10px;
+        margin: 20px auto !important;
+    }
+
+}
+
+@media only screen and (max-width:390px) {
+    #homepopular .class-item .class-ul li {
+        padding: 6px;
+    }
+}
+
+@media only screen and (max-width:290px) {
+    /* #homepopular .class-item .class-ul li {
+        padding: 6px;
+    } */
+}
+
+/* -------------------------------Homepopular-------------------------------- */
+/* ------------------------------HomeTeachers---------------------------------- */
+#hometeachers {
+    background: url('../../assets/Img/about-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    /* z-index: -1;
+     */
+}
+
+/* #hometeachers .teacher-header h1{
+    padding-top: 20px;
+    width: 100%;
+    text-align: center !important;
+    margin-top: 55px;
+}*/
+#hometeachers .teacher-header p {
+    color: white;
+}
+
+#hometeachers .teacher-header {
+    color: white;
+}
+
+#hometeachers .overlay {
+    background-color: rgba(71, 171, 35, .8);
+    /* background-image: linear-gradient(to right, red 10%, blue 70%, green); */
+    color: white;
+}
+
+#hometeachers .teachers-content ul {
+    margin: 0px;
+    padding: 0px;
+    justify-content: center;
+}
+
+#hometeachers .teachers-content a {
+    color: white;
+    display: block;
+    text-decoration: none;
+    font-weight: 700px;
+    transition: all 0.6s;
+}
+#hometeachers .teachers-content ul li  a:hover {
+    transform: translateY(-6px);
+}
+#hometeachers .teachers-content a:hover {
+    transform: translateY(-6px);
+}
+
+#hometeachers .teachers-content ul li {
+    display: inline-block;
+    list-style-type: none;
+
+    margin-right: 15px;
+}
+
+#hometeachers .teachers-content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+}
+
+#hometeachers .teachers-content .port {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+#hometeachers .teachers-img img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+#hometeachers .teachers-btn {
+margin-bottom: 10px;
+}
+#hometeachers .teachers-content p {
+    word-break: normal;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+@media (max-width: 1200px) {
+    #hometeachers .teachers-content .port {
+        display: inline-block;
+        margin-top: -20px;
+    }
+}
+
+@media (max-width: 768px) {
+    #hometeachers .teachers-content {
+        text-align: center;
+    }
+}
+
+/* ------------------------------HomeTeachers---------------------------------- */
+/* --------------------------------HomeGallery---------------------------------- */
+#Homegallery .gallery-header {
+    text-align: center;
+    color: purple;
+    margin: 0px auto;
+}
+
+#Homegallery .gallery-header h1 {
+    margin-top: 70px;
+    text-align: center;
+}
+
+#Homegallery ul li a {
+    text-decoration: none;
+    font: italic !important;
+    list-style: none;
+}
+
+#Homegallery ul li {
+    display: inline-block;
+    padding: 0px 20px;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+#Homegallery ul {
+    box-shadow: 0px 0px 20px 1px gainsboro;
+    text-align: center;
+    margin: 0px auto 55px;
+}
+#Homegallery .col-lg-4 .gallery-img{
+    width: 100%;
+    height: 100%;
+}
+#Homegallery .col-lg-4{
+    color:blue;
+    position: relative;
+}
+#Homegallery .gallery-overlay{
+    position: absolute;
+    bottom: 0;
+    left: 10;
+    right: 10;
+    margin:10px 10px;
+    width: 0%;
+    height: 0%;
+    opacity: 0.9;
+    z-index: 2;
+    transition: all 0.7s;
+
+}
+#Homegallery .col-lg-4 .gallery-content{
+position:absolute;
+left: 0;
+right: 0;
+bottom: 0;
+margin: auto auto;
+width: 100%; 
+height: 0%;
+transition: all 0.5s;
+z-index: 2;
+overflow: hidden;
+}
+#Homegallery .col-lg-4 a{
+    width: 55px;
+    height: 55px;
+    display: inline-block;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    font-size: 25px;
+    line-height: 2;
+     color: #92278F;
+       background-color: white;
+    border: 4px solid rgba(146, 146, 146, 0.5);
+}
+#Homegallery .col-lg-4:hover .gallery-overlay {
+    width: 89%;
+    height: 94%;
+}
+.Homegallery .col-lg-4:hover .gallery-content {
+    height: 100%;
+    padding: 30% 0%;
+}
+
+/* --------------------------------HomeGallery---------------------------------- */

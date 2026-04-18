@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", serif;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 1.5;
+  font-weight: 700;
+  font-family: 'Bubblegum Sans', cursive;
+}
+
+.ff-bubblegum {
+  font-family: 'Bubblegum Sans', cursive;
+}
+
+.font-66 {
+  font-size: 66px;
+}
+
+.font-36 {
+  font-size: 36px;
+}
+
+.f-16 {
+  font-size: 16px;
+}
+
+.p-20 {
+  padding: 20px;
+}
+
+.p-120 {
+  padding: 120px 0px;
+}
+
+p {
+  font-size: 16px;
+  line-height: 24px;
+  margin: 0 0 1.75em;
+  color: #707070;
+}
+
+.text-red {
+  color: #e84b3a !important;
+}
+
+.text-yellow {
+  color: #ffc000 !important;
+}
+
+.text-orange {
+  color: #fc7f0c !important;
+}
+
+.text-purple {
+  color: #92278f !important;
+}
+
+.text-lightblue {
+  color: #14b7f1 !important;
+}
+
+.text-pink {
+  color: #ee257c !important;
+}
+
+.text-green {
+  color: #8dc63f !important;
+}
+
+.text-brown {
+  color: #a40202 !important;
+}
+.text-violet{
+  color: violet !important;
+}
+
+.text-darkgreen{
+  color: #008c99;
+}
+.text-lightred{
+  color: #FA6F57;
+}
+.bg-yellow {
+  background-color: #FCB614;
+}
+
+.bg-red {
+  background-color: #e84b3a;
+}
+
+.bg-orange {
+  background-color: #fc7f0c;
+}
+
+.bg-purple {
+  background-color: #92278F;
+}
+
+.bg-lightblue {
+  background-color: #14b7f1;
+}
+
+.bg-brown {
+  background-color: #a40202;
+}
+
+.bg-pink {
+  background-color: #ee257c;
+}
+
+.bg-blue {
+  background-color: #365899;
+}
+.bg-green{
+  background-color: #88C87B;
+}
+.bg-darkgreen{
+  background-color: #008C99;
+}
+.bg-violet{
+  background-color: violet;
+}
+.bg-lightred{
+  background-color: #e84b3a;
+}
+.b-yellow {
+  border: 2px solid #FFC000;
+}
+
+.b-red {
+  border: 2px solid #E84B3A;
+}
+
+.b-orange {
+  border: 2px solid #FC7F0C;
+}
+
+
+/* banner for all */
+/* .BannerForAll {
+  background: url('/public/img/page-header-bg.jpg');
+} */
+
+#Banner  {
+  background:linear-gradient(rgba(7, 143, 203, .8),rgba(7, 143, 203, .8)),url('./assets/Img/about-bg.jpg') no-repeat scroll;
+  padding: 100px 0px;
+  background-size: cover;
+  text-align: center;
+  color: white;
+  position: relative;
+}
+#Banner a{
+  text-decoration: none;
+  color: white;
+}
+
+/* banner for all */

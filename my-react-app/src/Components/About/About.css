@@ -1,0 +1,45 @@
+.whychoose .choose-left .choose-item {
+    position: relative;
+    text-align: right;
+    margin-bottom: 10px;
+}
+.whychoose .choose-right .choose-item{
+    position: relative;
+    text-align: left;
+    margin-bottom: 10px;
+}
+.whychoose .choose-item .choose-content{
+    display: table;
+}
+
+
+.WhyChoose .choose-left .choose-item .icon {
+    display: inline-block;
+    /* display: flex; */
+    height: 70px !important;
+    width: 70px !important;
+    text-align: center;
+    color: #fff;
+    border-radius: 100%;
+    margin-top: 10px;
+    font-size: 32px;
+    line-height: 2.2;
+    transition: all 1s ease;
+    /* float: right; */
+    margin-left: 20px;
+}
+.WhyChoose .choose-right .choose-item .icon {
+    display: inline-block;
+    /* display: flex; */
+    height: 70px;
+    width: 70px;
+    text-align: center;
+    color: #fff;
+    border-radius: 100%;
+    margin-top: 10px;
+    font-size: 32px;
+    line-height: 2.2;
+  transition: all 1s ease;
+  /* float: left; */
+  margin-left: 20px;
+}
