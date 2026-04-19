@@ -52,7 +52,7 @@ function WhyChoose() {
                             </div>
                         </Col>
                         <Col lg={4} xs={12}>
-                            <img src={'../src/assets/Img/feature-about.jpg'} alt='' className='img-fluid'/>
+                            <img src={'Img/feature-about.jpg'} alt='' className='img-fluid'/>
                         </Col>
                         <Col lg={4} xs={12}>
                             <div className="choose-right">

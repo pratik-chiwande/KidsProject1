@@ -35,7 +35,7 @@
     position: absolute;
     display: block;
     top: 0;
-    background: url('../../assets/Img/section_top.png') no-repeat scroll;
+    background: url('Img/section_top.png') no-repeat scroll;
     background-repeat: repeat-x;
     height: 9px;
     width: 100%;
@@ -49,7 +49,7 @@
     display: block;
     bottom: -3px;
     /* 248px*/
-    background: url('../../assets/Img/section_bottom.png');
+    background: url('Img/section_bottom.png');
     background-repeat: repeat-x;
     height: 10px;
     width: 100%;
@@ -124,7 +124,7 @@
 /* ------------------facility------------------------------------------ */
 /* ---------------------Homeabout---------------------------------------- */
 .Homeabout {
-    background: url('../../assets/Img/about-bg.jpg') no-repeat scroll;
+    background: url('Img/about-bg.jpg') no-repeat scroll;
     background-size: cover;
     background-position: center;
     position: relative;

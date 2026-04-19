@@ -30,7 +30,7 @@ function Header() {
     <Navbar expand="lg" bg="light" variant="light" className="header shadow-sm">
       <Container>
         <Navbar.Brand as={Link} to="/">
-          <img src='../src/assets/logo.png' alt='logo' className='img-fluid logo' />
+          <img src='Img/logo.png' alt='logo' className='img-fluid logo' />
         </Navbar.Brand>
 
         <Navbar.Toggle aria-controls="navbar-nav" />
