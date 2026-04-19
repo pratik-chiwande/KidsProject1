@@ -1,6 +1,7 @@
 import React from 'react'
 import Carousel from 'react-bootstrap/Carousel';
 import { Link } from 'react-router';
+import myimg  from '../src/assets/Img/banner_01.jpg'
 import './Home.css';
 
 function Homebanner() {
@@ -11,7 +12,7 @@ function Homebanner() {
                     <Carousel.Item>
                         <img
                             className="d-block w-100 img-fluid"
-                            src={'../src/assets/Img/banner_01.jpg'}
+                            src={myimg}
                             alt="First slide"
                         />
                         <Carousel.Caption className='text-start'>
