@@ -1,18 +1,4 @@
-/* #Teachers {
-    background: url('../../assets/Img/about-bg.jpg');
-    background-size: cover;
-    background-position: center;
-    position: relative;
-    /* z-index: -1;
-     */
-*/
 
-/* #Teachers .teacher-header h1{
-    padding-top: 20px;
-    width: 100%;
-    text-align: center !important;
-    margin-top: 55px;
-}*/
 #Teachers .teacher-header p {
     color: white;
 }
@@ -21,11 +7,10 @@
     color: white;
 }
 
-/* #Teachers .overlay {
-    background-color: rgba(71, 171, 35, .8);
+
     /* background-image: linear-gradient(to right, red 10%, blue 70%, green); */
-    /* color: white; */
- */
+
+ 
 
 #Teachers .teachers-content ul {
     margin: 0px;
