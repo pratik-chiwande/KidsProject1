@@ -9,49 +9,49 @@ import '../Teachers/Teachers.css'
 
 const teachers = [
   {
-    img: '../src/assets/Img/teacher_01.jpg',
+    img: 'Img/teacher_01.jpg',
     bgColor: 'bg-yellow',
     title: 'Broklyn Doel ',
     subject: 'Sains Teacher'
   },
   {
-    img: '../src/assets/Img/teacher_02.jpg',
+    img: 'Img/teacher_02.jpg',
     bgColor: 'bg-red',
     title: 'Alex Jhonson ',
     subject: 'Art Teacher'
   },
   {
-    img: '../src/assets/Img/teacher_03.jpg',
+    img: 'Img/teacher_03.jpg',
     bgColor: 'bg-orange',
     title: 'Robot Jhonson  ',
     subject: 'Math Teacher'
   },
   {
-    img: '../src/assets/Img/teacher_04.jpg',
+    img: 'Img/teacher_04.jpg',
     bgColor: 'bg-purple',
     title: 'Janaton Doe  ',
     subject: 'English Teacher'
   },
   {
-    img: '../src/assets/Img/teacher_05.jpg',
+    img: 'Img/teacher_05.jpg',
     bgColor: 'bg-lightblue',
     title: 'Janaton Doe  ',
     subject: 'English Teacher'
   },
   {
-    img: '../src/assets/Img/teacher_06.jpg',
+    img: 'Img/teacher_06.jpg',
     bgColor: 'bg-green',
     title: 'Janaton Doe  ',
     subject: 'English Teacher'
   },
   {
-    img: '../src/assets/Img/teacher_07.jpg',
+    img: 'Img/teacher_07.jpg',
     bgColor: 'bg-pink',
     title: 'Janaton Doe  ',
     subject: 'English Teacher'
   },
   {
-    img: '../src/assets/Img/teacher_09.jpg',
+    img: 'Img/teacher_09.jpg',
     bgColor: 'bg-orange',
     title: 'Janaton Doe  ',
     subject: 'English Teacher'

@@ -8,25 +8,25 @@ import 'animate.css';
 
 const teachers = [
     {
-        img: '../src/assets/Img/teacher_01.jpg',
+        img: 'Img/teacher_01.jpg',
         bgColor: 'bg-purple',
         title: 'Broklyn Doel ',
         subject: 'Sains Teacher'
     },
     {
-        img: '../src/assets/Img/teacher_02.jpg',
+        img: 'Img/teacher_02.jpg',
         bgColor: 'bg-purple',
         title: 'Broklyn Doel ',
         subject: 'Art Teacher'
     },
     {
-        img: '../src/assets/Img/teacher_03.jpg',
+        img: 'Img/teacher_03.jpg',
         bgColor: 'bg-purple',
         title: 'Broklyn Doel ',
         subject: 'Math Teacher'
     },
     {
-        img: '../src/assets/Img/teacher_04.jpg',
+        img: 'Img/teacher_04.jpg',
         bgColor: 'bg-purple',
         title: 'Broklyn Doel ',
         subject: 'English Teacher'

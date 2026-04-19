@@ -6,19 +6,19 @@ import { Link } from 'react-router'
 
 const classItem = [
     {
-        img: "../../src/assets/Img/class_01.jpg",
+        img: "Img/class_01.jpg",
         title: 'Imagination Classes',
         titlecolor: 'ff-bubblegum fw-bold text-yellow',
         addressBg: 'bg-yellow'
     },
      {
-        img: "../../src/assets/Img/class_02.jpg",
+        img: "Img/class_02.jpg",
         title: 'Drawing Classes',
         titlecolor: 'ff-bubblegum fw-bold text-red',
         addressBg: 'bg-red'
     },
      {
-        img: "../../src/assets/Img/class_03.jpg",
+        img: "Img/class_03.jpg",
         title: 'Learning Classes',
         titlecolor: 'ff-bubblegum fw-bold text-orange',
         addressBg: 'bg-orange'

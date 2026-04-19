@@ -10,7 +10,7 @@ function Homeabout() {
                     <Container >
                         <Row>
                             <Col lg={6}>
-                                <img src="../src/assets/Img/about.png" alt="about " className='img-fluid' />
+                                <img src="/Img/about.png" alt="about " className='img-fluid' />
                             </Col>
                             <Col lg={6} className=' text-center mt-5 text-lg-start mt-lg-0 '>
                                 <h2 className='fw-bold h1'>About Our KidsAcademy</h2>

@@ -8,22 +8,22 @@ import { Link } from 'react-router'
 
 const saved = [
     {
-        img: '../src/assets/Img/gallery_01.jpg'
+        img: 'Img/gallery_01.jpg'
     },
     {
-        img: '../src/assets/Img/gallery_02.jpg'
+        img: 'Img/gallery_02.jpg'
     },
     {
-        img: '../src/assets/Img/gallery_03.jpg'
+        img: 'Img/gallery_03.jpg'
     },
     {
-        img: '../src/assets/Img/gallery_04.jpg'
+        img: 'Img/gallery_04.jpg'
     },
     {
-        img: '../src/assets/Img/gallery_05.jpg'
+        img: 'Img/gallery_05.jpg'
     },
     {
-        img: '../src/assets/Img/gallery_06.jpg'
+        img: 'Img/gallery_06.jpg'
     }
 ]
 
