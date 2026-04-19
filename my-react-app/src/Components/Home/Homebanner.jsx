@@ -1,9 +1,6 @@
 import React from 'react'
 import Carousel from 'react-bootstrap/Carousel';
 import { Link } from 'react-router';
-import myimg1  from '../src/assets/Img/banner_01.jpg'
-import myimg2  from '../src/assets/Img/banner_02.jpg'
-import myimg3  from '../src/assets/Img/banner_03.jpg'
 import './Home.css';
 
 function Homebanner() {
@@ -14,7 +11,7 @@ function Homebanner() {
                     <Carousel.Item>
                         <img
                             className="d-block w-100 img-fluid"
-                            src={myimg1}
+                            src='Img/banner_01.jpg'
                             alt="First slide"
                         />
                         <Carousel.Caption className='text-start'>
@@ -31,7 +28,7 @@ function Homebanner() {
                     <Carousel.Item>
                         <img
                             className="d-block w-100 img-fluid"
-                            src={myimg1}
+                             src='Img/banner_02.jpg'
                             alt="Second slide"
                         />
                         <Carousel.Caption className='text-start'>
@@ -48,7 +45,7 @@ function Homebanner() {
                     <Carousel.Item>
                         <img
                             className="d-block w-100 img-fluid"
-                            src={myimg3}
+                             src='Img/banner_03.jpg'
                             alt="Third slide"
                         />
                         <Carousel.Caption className='text-start'>
